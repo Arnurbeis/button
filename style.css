@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    position: absolute;
+    padding: 12px;
+    font: 900;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
